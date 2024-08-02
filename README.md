@@ -8,7 +8,7 @@ Este proyecto es un simple juego de memoria en el que los jugadores deben encont
 
 A continuación, se muestra la imagen del resultado obtenido:
 
-![Juego de Memoria](screenshot/juego-de-memoria.png)
+![Juego de Memoria](assets/screenshot/juego-de-memoria.png)
 
 ## Autor
 
