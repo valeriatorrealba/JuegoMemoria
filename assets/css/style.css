@@ -1,0 +1,35 @@
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #eaeaea;
+    border: 2px solid #333;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 50px; /* Tamaño del emoji */
+    text-align: center;
+    line-height: 100px; /* Centra el emoji verticalmente */
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+    background-color: #ffffff;
+    color: black; /* Mostrar el emoji */
+}
+
+.card.matched {
+    background-color: lightblue;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en el eje X */
+    align-items: center; /* Centra verticalmente en el eje Y */
+    height: 25vh; /* Establece la altura del contenedor como el 100% del viewport */
+    margin: 0px 100px;
+}
+.title-container{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en el eje X */
+    align-items: center; /* Centra verticalmente en el eje Y */
+}
